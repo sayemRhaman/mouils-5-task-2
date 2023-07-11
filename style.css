@@ -8,7 +8,7 @@ body{
     font-family: 'Work Sans', sans-serif;
 }
 section{
-    margin-top: 70px;
+    margin-top: 80px;
 }
 
 header{
@@ -92,4 +92,31 @@ header{
     color:#16D887;
     margin-right: 4px;
     vertical-align:middle ;
+}
+
+.plan{
+    width: 80%;
+    margin: 10px auto;
+}
+.hero{
+    text-align: center;
+   
+}
+.plan-bar{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    gap:120px;
+}
+.plan-item{
+    text-align: center;
+}
+.plan-item img{
+    width: 80px;
+    margin-bottom: 22px;
+}
+.plan-item h4{
+    font-size: 20px;
+    color:#151414;
+    margin-bottom: 15px;
 }
