@@ -54,6 +54,12 @@ header{
     border: none;
     border-radius: 5px;
     padding: 10px 12px;
+    transition: all .5s;
+}
+.btn:hover{
+    border: 2px solid #fff;
+    background-color: #005FAC;
+    color:#fff;
 }
 .btn-div{
     display: flex;
@@ -119,4 +125,31 @@ header{
     font-size: 20px;
     color:#151414;
     margin-bottom: 15px;
+}
+
+.order-box {
+    width: 80%;
+    height: 250px;
+    background-image:  url('images/gradient1.png'), url('images/watch.png'); 
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    margin: auto;
+    box-sizing: border-box;
+    border-radius: 8px;
+}
+
+.order{
+    display: flex;
+    flex-direction: column;
+    padding: 50px 50px;
+    vertical-align: middle;
+    color:#fff;
+}
+.order h2{
+    color:#fff;
+}
+.footer{
+    background-color: #151414;
+    color:#fff;
 }
