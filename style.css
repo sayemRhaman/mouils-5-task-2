@@ -144,7 +144,7 @@ header{
     flex-direction: column;
     padding: 50px 50px;
     vertical-align: middle;
-    color:#fff;
+    color:#e5e5e5;
 }
 .order h2{
     color:#fff;
@@ -152,4 +152,42 @@ header{
 .footer{
     background-color: #151414;
     color:#fff;
+}
+.foot{
+    display: flex;
+    justify-content: center;
+    padding: 60px;
+    gap:100px;
+}
+.left-foot{
+    width: 500px;
+}
+.hero-foot{
+    color:#fff;
+}
+.foot p{
+    font-size: 14px;
+    font-weight: normal;
+    line-height: 26px;
+}
+.social-links{
+    display: flex;
+    gap:18px;
+    margin-top: 26px;
+}
+
+.right-foot{
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+}
+.right-foot input{
+    margin-top: 30px;
+    margin-bottom: 15px;
+    padding: 18px 15px;
+    width: 280px;
+    border: 2px solid #8e7e7e;
+    background: transparent;
+    outline: none;
+    border-radius: 10px;
 }
